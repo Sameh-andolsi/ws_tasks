@@ -1,0 +1,52 @@
+.addBtn {
+
+ 
+font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+
+border-radius: 20px;
+  margin-left: 20px;
+  height: 40px;
+  margin-top: -10px;
+}
+
+.addBtn svg {
+  margin-right: 9px;
+}
+
+
+.addBtn:hover {
+  background-color: #aecdef;
+} 
+.addT{
+    margin-top: 20px;
+}
+input {
+   
+  width:100%;
+  max-width: 220px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1.5px solid lightgrey;
+  outline: none;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  box-shadow: 0px 0px 20px -18px;
+}
+
+input:hover {
+  border: 2px solid lightgrey;
+  box-shadow: 0px 0px 20px -17px;
+}
+
+input:active {
+  transform: scale(0.95);
+}
+
+input:focus {
+  border: 2px solid grey;
+}
+
+
